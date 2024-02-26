@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  max-width: 100%;
+  .navbar{
+    width: 100%;
+  }
+}
+body{
+  font-family: verdana;
+  margin: 0;
+}
+
+#form_chemistrymachine {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 1.45em;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 15px;
+  border-spacing: 5px;
+  padding: 15px;
+  width: 90%; 
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'poppins', verdana;
+}
+
+
+.Q1_class{
+  margin-left: 3.56px;
+  border: 2px solid black;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #cdc6c6;
+  transition: background-color 0.25s;
+  width: 35%;
+  min-height: 30px;
+}
+
+.Q2_class{
+  margin-left: 3.56px;
+  min-height: 35px;
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: #cdc6c6;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  min-width: 35%;
+}
+.Q1_class:hover, .Q2_class:hover{
+  background-color: #aaaaaa;
+}
+#Q2_text{
+  width: 200px;
+}
+.submitbtn{
+  width: 120px;
+  height: 28px;
+  border-radius: 40px;
+  background-color: #e1dbdb;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.94rem;
+  font-weight: 600;
+  margin: 1.5vw;
+}
+.submitbtn:hover{
+  font-size: 0.96rem;
+  background-color: lightgrey;
+}
+#h1-1{
+  text-align: center;
+  padding-top: 6vh;
+}
+#answer_label{
+  width: 90vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 12.5px;
+  font-size: 1.85em;
+  margin: 0 auto;
+}
+
+.custom-shape-divider-bottom-1707689756 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707689756 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 20vh;
+}
+
+.custom-shape-divider-bottom-1707689756 .shape-fill {
+    fill: #808080;
+}

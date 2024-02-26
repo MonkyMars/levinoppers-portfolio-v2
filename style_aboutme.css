@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  background-color: #d9dbda;
+}
+
+
+
+#narrow-paragraph {
+  max-width: 265px; 
+  margin: 0 auto; 
+}

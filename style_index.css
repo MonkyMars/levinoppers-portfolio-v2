@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: Verdana;
+  margin: 0;
+  padding-left: 0;
+  min-height: 100vw;
+  background-color: #d9dbda;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#Monky{
+  text-align: center;
+}
+#changename{
+  text-align: center;
+}
+
+#Submit_name{
+  width: 100px;
+  height: 25px;
+  border-radius: 40px;
+  background-color: #e1dbdb;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 1.5vw;
+}
+#Submit_name:hover{
+  font-size: 0.93rem;
+  background-color: lightgrey;
+}
+.Feedback{
+  padding: 4px 2px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0eded;
+  transition: background-color 0.25s;
+  width: 180px;
+}
+.Feedback:hover{
+  background-color: #dedad9;
+}
+#BHE-1{
+  background-color:  black;
+  width: 200px;
+  height: 25px;
+  color: black;
+  border-radius: 12px;
+}
+  
+
+
+#feedback_div{
+  margin: 10px;
+  text-align: center;
+}
+
+section{
+  position: relative;
+}
+.custom-shape-divider-bottom-1707602775 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1707602775 svg {
+    position: relative;
+    display: block;
+    width: 103vw;
+    height: 13vw;
+}
+
+.custom-shape-divider-bottom-1707602775 .shape-fill {
+    fill: #808080;
+}
+
+
